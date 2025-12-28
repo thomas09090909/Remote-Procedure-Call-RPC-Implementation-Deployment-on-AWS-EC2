@@ -35,7 +35,7 @@ Calling reverse_string('hello')
 Response: {'request_id': '...', 'result': 'olleh', 'status': 'OK'}
 
 ## Optional: Demonstrate Failure Handling
-- In server.py, uncomment:
+- In server.py, add:
 time.sleep(5)  # simulate server delay
 - Run client while server is delayed. Client retries will show:
 Timeout! Retrying request 1/3 ...
